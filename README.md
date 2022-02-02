@@ -23,3 +23,17 @@
 10. Each book and member card will have a unique barcode. The system will be able to read barcodes from books and members’ library cards.
 
 
+## Book :
+```java
+public abstract class Book {
+  private String ISBN;
+  private String title;
+  private String category;
+  private String publisher;
+  private String language;
+  private int numberOfPages;
+  private List<Author> authors;
+}
+```
+
+
