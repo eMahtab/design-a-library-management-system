@@ -23,7 +23,7 @@
 10. Each book and member card will have a unique barcode. The system will be able to read barcodes from books and members’ library cards.
 
 
-## Book :
+## Book
 ```java
 public abstract class Book {
   private String ISBN;
@@ -33,6 +33,24 @@ public abstract class Book {
   private String language;
   private int numberOfPages;
   private List<Author> authors;
+}
+```
+
+## BookItem
+```java
+public class BookItem extends Book {
+  private String barcode;
+  private Date borrowed;
+  private Date dueDate;
+  private double price;
+  private BookFormat format;
+  private BookStatus status;
+  private Date dateOfPurchase;
+  private Date publicationDate;
+  private Rack placedAt;
+
+  public boolean checkout(String memberId) {
+  }
 }
 ```
 
