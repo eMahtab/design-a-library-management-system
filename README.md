@@ -57,7 +57,7 @@ public class BookItem extends Book {
 ## Rack
 ```java
 public class Rack {
-  private int number;
+  private String rackId;
   private String locationIdentifier;
 }
 ```
