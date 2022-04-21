@@ -62,4 +62,37 @@ public class Rack {
 }
 ```
 
+## UserType
+```java
+public enum UserType {
+	LIBRARIAN, MEMBER
+}
+```
+## User
+```java
+public class User {
+	public User(String barcode, String name, UserType userType) {
+		this.barcode = barcode;
+		this.name = name;
+		this.userType = userType;
+	}
+
+	private String barcode;
+	private String name;
+	private UserType userType;
+
+	public String getBarcode() {
+		return barcode;
+	}
+
+	public UserType getUserType() {
+		return userType;
+	}
+
+	public String getName() {
+		return name;
+	}
+}
+```
+
 
