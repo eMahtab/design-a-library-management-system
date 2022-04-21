@@ -64,7 +64,7 @@ public class Rack {
 ## enums
 ```java
 public enum BookType {
-    SCI_FI, ROMANTIC, FANTASY, DRAMA;
+    FICTION, SELF_HELP, HISTORY, ECONOMICS, RELIGION;
 }
 
 public enum BookFormat {
