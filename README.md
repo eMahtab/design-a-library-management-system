@@ -61,6 +61,20 @@ public class Rack {
   private String locationIdentifier;
 }
 ```
+## enums
+```java
+public enum BookType {
+    SCI_FI, ROMANTIC, FANTASY, DRAMA;
+}
+
+public enum BookFormat {
+    HARDCOVER, PAPERBACK, NEWSPAPER, JOURNAL;
+}
+
+public enum BookStatus {
+    ISSUED, AVAILABLE, RESERVED, LOST;
+}
+```
 
 ## UserType
 ```java
